@@ -1,0 +1,25 @@
+@media (min-width: 600px) {
+    .section {
+      margin: 10rem;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .img {
+        width: 50%;
+        height: 50%;
+  }
+  
+  @media (max-width: 600px) {
+      header{
+          padding: 20px;
+      }
+      header .topnav{
+          position: absolute;
+          top: 100%;
+          right: 0;
+          background-color: white;
+          border-top: 1px solid black;
+          display: none;
+      }
+  }
+  
