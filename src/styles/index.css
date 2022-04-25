@@ -103,12 +103,11 @@ P{
 }
 .dropdown-content {
   border-radius: 10px;
-  padding: 20px;
   display: none;
   position: absolute;
   background-color: #fff;
-  width: 120px;
-  z-index: 2;
+  min-width: 160px;
+  z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
